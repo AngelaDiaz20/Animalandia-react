@@ -12,7 +12,7 @@ function Perros() {
             <Header />
             <Navbar />
             <div className="container">
-                <h1>Listado de perros</h1>
+                <h1>Razas de perros</h1>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     {
                         perros.map(p=>(
