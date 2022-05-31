@@ -19,7 +19,7 @@
 }
 
 .modal-body img{
-    width: 55%;
+    width: 100%;
 }
 
 .modal-img{
@@ -46,3 +46,8 @@
 }
 
 
+@media (min-width:768px) {
+    .modal-body img{
+        width: 55%;
+    }
+}
