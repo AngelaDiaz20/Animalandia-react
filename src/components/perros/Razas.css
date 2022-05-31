@@ -1,0 +1,48 @@
+.card{
+    border:1px solid var(--purple-color);
+    transition-duration: 400ms;
+}
+
+.card-img-top{
+    margin-top: 40px;
+}
+
+.btn{
+    background-color: var(--purple-color);
+    border: none;
+    border-radius: 0px;
+    color: var(--white-color);
+}
+
+.btn:hover{
+    background-color:rgb(183, 1, 183);
+}
+
+.modal-body img{
+    width: 55%;
+}
+
+.modal-img{
+    text-align: center;
+}
+
+.modal-header{
+    margin:-2px -0.4px 0;
+    color: rgb(255, 255, 255);
+    background-color: var(--purple-color);
+    border-bottom: 4px solid violet;
+}
+
+.modal-content{
+    border: 2px solid var(--purple-color);
+}
+
+.btn-close{
+    background-color:rgb(246, 196, 246);
+}
+
+.modal-body{
+    text-align: justify;
+}
+
+

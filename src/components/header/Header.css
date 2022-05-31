@@ -1,0 +1,56 @@
+header{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img{
+    max-width: 280px;
+}
+
+.buttons-header{
+   margin-top: 20px;
+}
+
+.buttons-header i{
+    margin-right: 10px;
+}
+
+.btn-azul{
+    color: var(--dark-color);
+    background-color: var(--blue-color);
+    border: 2px solid var(--blue-color);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 7px;
+    margin-right: 5px;
+}
+
+.btn-morado{
+    color: var(--purple-color);
+    background-color: var(--white-color);
+    border: 2px solid var(--purple-color);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 7px;
+    margin-right: 5px;
+}
+
+@media (min-width:768px) {
+    header{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+}
+

@@ -1,0 +1,23 @@
+nav{
+	background-color: #752995;
+    padding: 10px;
+}
+
+.active{
+    color: #FFFFFF;
+}
+
+.img-fluid{
+    height: 60px;
+}
+
+.btn-outline-success{
+    background-color: #cd6df6;
+    color: white;
+    border: #FFFFFF;
+}
+
+.btn-outline-success:hover{
+    background-color: var(--blue-color);
+    color: var(--dark-color);
+}
