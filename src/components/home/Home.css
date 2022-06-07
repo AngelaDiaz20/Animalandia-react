@@ -1,0 +1,49 @@
+#agenda{
+    margin-top: 0.1rem; 
+}
+
+.agenda-cita{
+    background-image: url(../footer/fondo-paticas.jpg);
+    padding: 3rem;
+}
+.agenda-cita h1{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.agenda-promocion{
+    background-color: var(--purple-color);
+    padding: 3rem;
+}
+
+.agenda-promocion h1{
+    font-size: 1.5rem;
+    color: var(--white-color);
+    text-shadow: 2px 2px 2px var(--dark-color);
+}
+
+.agenda-promocion img{
+    border: 7px solid var(--dark-color);
+}
+
+.tseccion{
+    color: var(--purple-color);
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px var(--dark-color);
+}
+.card{
+    border: none;
+    margin-bottom: 20px;
+}
+.card img{
+    max-width: 200px;
+}
+
+.card p{
+    text-align: justify;
+    margin: 0;
+}
+
+.servicios{
+    width: 90%;
+    margin: auto;
+}
